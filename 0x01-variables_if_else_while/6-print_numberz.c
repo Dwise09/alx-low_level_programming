@@ -5,18 +5,17 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 
 {
-int number;
+int i;
 
-for (number = 0; number <= 10; number++)
+for (i = 48 ; i <= 57; i++)
 {
-putchar(number);
+putchar (i);
 }
 
-putchar('\n');
+putchar ('\n');
 
 return (0);
 
