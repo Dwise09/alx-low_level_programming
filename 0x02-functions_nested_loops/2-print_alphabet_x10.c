@@ -17,7 +17,7 @@ e = 'a';
 
 while (e <= 'z')
 {
-_putchar(s);
+_putchar(e);
 e++;
 }
 
