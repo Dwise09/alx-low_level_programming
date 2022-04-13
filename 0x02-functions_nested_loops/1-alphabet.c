@@ -3,7 +3,7 @@
 /**
  * main -Entry point
  *
- * Return: Always 0 (success)
+ * Return: print alphabet in lowercase + newline
  */
 void print_alphabet(void)
 {
