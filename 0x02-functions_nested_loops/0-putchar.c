@@ -8,7 +8,7 @@
 int main(void)
 {
 
-int n == "_putchar"
+char n = "_putchar"
 
 putchar("n");
 
