@@ -1,4 +1,4 @@
-#ifndef
+#ifndef main
 
 
 int _putchar(char c);
