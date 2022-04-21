@@ -6,7 +6,7 @@
  * @a: integer first
  * @b: integer second
  */
- void swap_int(int *a. int *b)
+ void swap_int(int *a, int *b)
 {
 
 c = 0;
