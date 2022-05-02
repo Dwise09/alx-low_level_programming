@@ -4,19 +4,14 @@
 /**
  * main - Entry point
  *
- * @argc: counts the number of parameter that go into the main
- * @argv:array of pointers in the main containing strings
- *
- * return: Zero (0) success
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return: Always 0 (Success)
  */
 
 int main(int argc, char **argv)
 {
-
-if (argc > 0)
-{
-printf("%s\n", argc[0]);
-}
-
-return (0);
+	if (argc > 0)
+		printf("%s\n", argv[0]);
+	return (0);
 }
