@@ -1,18 +1,18 @@
-#include "lists.h"
+#include "list.h"
 #include <stdio.h>
 
 /**
- * print_listint - prints all lis element
- * @h: list head
+ * print_list - all elements list
+ * @h: linked list
  *
- * return: nodes numbers
+ * return: number of elements inthe list
  */
 
 size_t print_list(const list_t *h)
 {
 
 size_t david;
-david = 0;
+david = 0
 
 while (h != NULL)
 {
@@ -22,7 +22,8 @@ printf("[%d] %s\n", 0, "(nil)");
 
 else
 printf("[%d] %s\n", h->len, h->str);
-h = h-> next;
+
+h = h->next;
 david++
 
 }
@@ -30,5 +31,3 @@ david++
 return(david);
 
 }
-
-
