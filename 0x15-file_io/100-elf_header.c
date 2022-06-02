@@ -11,6 +11,7 @@
  * @ptr: magic.
  * Return: no return.
  */
+
 void print_addr(char *ptr)
 {
 int i;
